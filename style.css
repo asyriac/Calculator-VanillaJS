@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+#output {
+  width: 30%;
+  height: 50%;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+}
+
+#previous {
+  font-size: 1rem;
+  background-color: black;
+  height: 75px;
+}
+
+#current {
+  background-color: black;
+  height: 75px;
+  overflow-wrap: break-word;
+}
+
+#row {
+  width: 30%;
+  display: flex;
+}
+
+button {
+  height: 125px;
+  width: 25%;
+  cursor: pointer;
+  border: 1px solid grey;
+  outline: none;
+  font-size: 1rem;
+}
+
+#size-two {
+  width: 50%;
+}
